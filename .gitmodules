@@ -1,3 +1,6 @@
 [submodule "Steamworks.NET"]
 	path = Steamworks.NET
 	url = git@github.com:lone-wolf-akela/Steamworks.NET.git
+[submodule "LoneWolf_Archiver"]
+	path = LoneWolf_Archiver
+	url = git@github.com:lone-wolf-akela/LoneWolf_Archiver.git
