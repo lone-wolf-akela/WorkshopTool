@@ -4,8 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkshopTool", "WorkshopTool.csproj", "{5C8C5BD6-6D00-4EA0-87D2-3E0A8BA4E4CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4E9839E4-2A1A-468B-916A-260FB6321133} = {4E9839E4-2A1A-468B-916A-260FB6321133}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steamworks.NET", "Steamworks.NET\Standalone\Steamworks.NET.csproj", "{B3543600-587C-4FDC-994A-CB0BDC629A7E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoneWolf_Archiver", "LoneWolf_Archiver\LoneWolf_Archiver\LoneWolf_Archiver.vcxproj", "{4E9839E4-2A1A-468B-916A-260FB6321133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +54,22 @@ Global
 		{B3543600-587C-4FDC-994A-CB0BDC629A7E}.Windows|x64.Build.0 = Windows|x64
 		{B3543600-587C-4FDC-994A-CB0BDC629A7E}.Windows|x86.ActiveCfg = Windows|x86
 		{B3543600-587C-4FDC-994A-CB0BDC629A7E}.Windows|x86.Build.0 = Windows|x86
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Debug|x64.ActiveCfg = Debug|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Debug|x64.Build.0 = Debug|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Debug|x86.ActiveCfg = Debug|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Debug|x86.Build.0 = Debug|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.OSX-Linux|x64.ActiveCfg = Release|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.OSX-Linux|x64.Build.0 = Release|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.OSX-Linux|x86.ActiveCfg = Release|Win32
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.OSX-Linux|x86.Build.0 = Release|Win32
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Release|x64.ActiveCfg = Release|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Release|x64.Build.0 = Release|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Release|x86.ActiveCfg = Release|Win32
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Release|x86.Build.0 = Release|Win32
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Windows|x64.ActiveCfg = Release|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Windows|x64.Build.0 = Release|x64
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Windows|x86.ActiveCfg = Release|Win32
+		{4E9839E4-2A1A-468B-916A-260FB6321133}.Windows|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

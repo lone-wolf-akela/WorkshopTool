@@ -75,7 +75,7 @@
     <PostBuildEvent>copy $(ProjectDir)\CSteamworks.dll $(TargetDir)
 copy $(ProjectDir)\Steamworks.NET\Plugins\$(PlatformName)\steam_api.dll $(TargetDir)
 copy $(ProjectDir)\steam_appid.txt $(TargetDir)
-copy $(ProjectDir)\archive_config.json $(TargetDir)
-copy $(ProjectDir)\LoneWolf_Archiver.exe $(TargetDir)</PostBuildEvent>
+copy $(ProjectDir)\x64\$(ConfigurationName)\archive_config.json $(TargetDir)
+copy $(ProjectDir)\x64\$(ConfigurationName)\LoneWolf_Archiver.exe $(TargetDir)</PostBuildEvent>
   </PropertyGroup>
 </Project>
